@@ -1,12 +1,11 @@
-proto_outdir = "./api/ext"
-
-[[dependencies]]
-    target = "github.com/mwitkow/go-proto-validators"
-    branch = "master"
-    ignores = ["test", "examples", "plugin", "protoc-gen-govalidators"]
-
+proto_outdir = "./proto/ext"
 
 [[dependencies]]
     target = "github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis"
     branch = "master"
     ignores = ["google/rpc"]
+
+#[[dependencies]]
+#    target = "github.com/mwitkow/go-proto-validators"
+#    branch = "master"
+#    ignores = ["test", "examples", "plugin", "protoc-gen-govalidators"]

@@ -4,3 +4,6 @@ proto:
 go-build:
 	GO111MODULE=on go build -o cmd/api/api ./cmd/api/
 	GO111MODULE=on go build -o cmd/gw/gw ./cmd/gw/
+
+protodep:
+	protodep up
