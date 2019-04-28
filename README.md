@@ -10,18 +10,20 @@ a template repository of grpc-go + grpc-gateway
   * [Handling request parameter in an interceptor by using **grpc-middleware/tags**](https://github.com/soichisumi-sandbox/grpc-middleware-sample)
   * [Authentication in an interceptor](https://github.com/soichisumi/grpc-auth-sample)
 
-## Installation
+## Requirements
 
-* Install go 1.12 or above
+* go 1.12 or above
   * brew install go
-* Install [Protocol Buffers compiler](https://github.com/protocolbuffers/protobuf)
+* [Protocol Buffers compiler](https://github.com/protocolbuffers/protobuf)
   * brew install protobuf
-* Install [grpc-go](https://github.com/grpc/grpc-go)
+* [grpc-go](https://github.com/grpc/grpc-go)
   * go get -u google.golang.org/grpc
-* Install [go protocol buffers plugin](https://github.com/golang/protobuf/tree/master/protoc-gen-go)
+* [go protocol buffers plugin](https://github.com/golang/protobuf/tree/master/protoc-gen-go)
   * go get -u github.com/golang/protobuf/protoc-gen-go
-* Install [grpc-gateway protocol buffers plugin](https://github.com/grpc-ecosystem/grpc-gateway)
+* [grpc-gateway protocol buffers plugin](https://github.com/grpc-ecosystem/grpc-gateway)
   * go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+* [protodep](https://github.com/stormcat24/protodep)
+  * go get -u github.com/stormcat24/protodep
 
 
 ## Usage
