@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/gorilla/handlers"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/soichisumi-sandbox/grpc-custom-error-sample/app/proto"
+	"github.com/soichisumi/grpc-template/app/proto"
 	"google.golang.org/grpc"
 	"net/http"
 )

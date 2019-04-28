@@ -2,7 +2,7 @@ package app
 
 import (
 	"context"
-	"github.com/soichisumi-sandbox/grpc-custom-error-sample/app/proto"
+	"github.com/soichisumi/grpc-template/app/proto"
 )
 
 func NewServer() Server {return Server{}}
